@@ -1,39 +1,39 @@
-# 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
+                                    **Swiggy Clone App Deployment – A Real-Time DevOps Project**
+**🚀 Project Overview**
+In this project, I implemented a complete CI/CD pipeline for deploying a Swiggy-like food delivery application using DevOps best practices. The pipeline ensures automation, security, and scalability from code commit to production deployment.
 
-In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
-## 🛠️ Tools & Services Used:
+**🛠️ Tools & Services Used**
+✅ Terraform – Infrastructure as Code (IaC) for provisioning cloud resources
+✅ GitHub – Version control to manage source code
+✅ Jenkins – CI/CD pipeline automation for continuous integration and deployment
+✅ SonarQube – Code quality and security scanning
+✅ OWASP Dependency Check – Security vulnerability scanning
+✅ Trivy – Container vulnerability scanning
+✅ Docker & DockerHub – Containerization and image storage
 
-1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-2. **GitHub** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-3. **Jenkins** ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-4. **SonarQube** ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-5. **OWASP** ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-6. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
-7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
+**🔹 Key Implementations & Workflow**
+1️⃣ Infrastructure Provisioning with Terraform
 
----
+Used Terraform to automate the creation of cloud infrastructure, including servers, networking, and storage.
+2️⃣ Version Control & CI/CD Pipeline
 
-### 📹 Video Link: [**Click Here**](https://youtu.be/x55z7rk0NAU?si=gM1_61wUoq3ChiHD)
+Managed source code using GitHub.
+Configured Jenkins to trigger builds automatically on code commits.
+3️⃣ Code Quality & Security Analysis
 
-### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/KastroVKiran/Terraform-Script-Swiggy-Kastro.git)
+Integrated SonarQube to analyze code for bugs, code smells, and vulnerabilities.
+Implemented OWASP Dependency Check to detect security issues in dependencies.
+4️⃣ Containerization & Security Scanning
 
-### 📺 Docker Playlist: [**Watch on YouTube**](https://youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh&si=c75uaxvjazr-mIdw)
+Built Docker images for application deployment.
+Scanned Docker images for vulnerabilities using Trivy.
+5️⃣ Deployment & Scaling
 
----
-
-## About Me  
-<img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1733356800&v=beta&t=bz-SXs7FHwIDqQ9xlPibErrGvpHDdAjMJEr9WqHsi9A" alt="Kastro Profile Image" width="150" height="150" style="border-radius:50%;">
-
-**Kastro**    
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kastro-kiran/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KastroVKiran)  
-
----
-
-## 📢 **Share Your Experience!**
-
-If you've successfully deployed the **Swiggy Clone App** using this project, I'd love to hear about it!  
-- 📹 **Post your deployment video** and **tag me on LinkedIn**: [**Kastro Kiran**](https://www.linkedin.com/in/kastro-kiran/)
-- 💬 **Share your experience** of deploying the app and the tools you used.
-
-> “DevOps is not just a job; it's a journey to continuously improve processes and automate solutions.” – **Kastro**
+Pushed Docker images to DockerHub for version control.
+Deployed the application in a containerized environment with Docker.
+Ensured scalability and high availability.
+**🌟 Impact & Outcome**
+✔️ Fully automated software deployment workflow
+✔️ Improved security by scanning for vulnerabilities at multiple levels
+✔️ Faster deployments with containerized infrastructure
+✔️ Scalable & reproducible deployment process
